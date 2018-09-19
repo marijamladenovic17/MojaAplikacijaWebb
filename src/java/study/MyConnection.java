@@ -22,6 +22,15 @@ public class MyConnection {
         }
         return conn;
     }
+    public static Connection getConn1() {
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mojaaplikacijanovo", "root", "");
+        } catch (Exception e) {
+            System.out.println("From my connection");
+        }
+        return conn;
+    }
     
     
 }
