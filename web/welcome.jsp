@@ -68,7 +68,7 @@
                                    
                             }
                         %>
-                        <form name="sacuvajKandidata" action="RegisterSevrlet" class="form-group" method="POST">
+                        <form name="sacuvajKandidata" action="karton.jsp" class="form-group" method="POST">
                             <table border="0" class = "table">
 
                                 <tbody>
@@ -103,7 +103,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                                    <input type="submit" value="Pronadji svoj karton" hidden="true"class="btn-success" name="sacuvaj" />
+                                    <input type="submit" value="Pronadji svoj karton" class="btn-success" name="sacuvaj" />
                         </form>
 
                         <br>
